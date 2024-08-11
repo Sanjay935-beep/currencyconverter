@@ -1,0 +1,88 @@
+body{
+    background-color: antiquewhite;
+}
+.body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
+
+}
+.dropdown{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-top: 1.3vh;
+}
+.select-container{
+    margin-top: 0.2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:0.5px solid lightgray;
+    border-radius: 1vh;
+}
+.container{
+    background-color: white;
+    border-radius:2vh;
+    padding:3vh;
+    height:40vh;
+    margin-top: 1vh;
+   
+
+}
+i{
+    margin-top: 3vh;
+    padding-right: 1vh;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    margin:2.5vh 0 2.5vh 0;
+}
+form select,input,button{
+    width:100%;
+    outline:none;
+    border-radius: 1vh;
+    border:none;
+    
+
+}
+p{
+    margin-top:1vh;
+    font-size:3vh;
+  
+}
+form input{
+    margin-top: 1vh;
+    border:0.5px solid lightgray;
+    height: 3.1vh;
+}
+.select-container img{
+    width: 6vh;
+ 
+}
+.msg{
+    margin: 3vh 0 3vh 0;
+    font-size: 2.5vh;
+}
+form button{
+    height:4vh;
+    background-color: #0388fc;
+    color:white;
+}
+
+.footer{
+    text-align: center;
+    border: 2px solid  rgb(239, 199, 147);
+    background: rgb(241, 207, 163);
+    padding: 5px;
+}
+.rights{
+    font-weight: bold;
+}
+.name{
+    font-weight: bolder;
+}
